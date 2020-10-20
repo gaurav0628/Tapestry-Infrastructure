@@ -1,0 +1,12 @@
+
+15:03:13.677 [info]  number of nodes = 1000
+
+15:03:13.686 [info]  In generate hash values
+
+15:03:13.746 [info]  Generated hash values
+
+15:03:13.746 [info]  Size of hash ID list 1000
+
+15:03:13.779 [info]  Simulator starting to create routing table
+
+15:03:22.245 [info]  Simulator done creating routing table
