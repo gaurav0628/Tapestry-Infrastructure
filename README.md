@@ -7,6 +7,8 @@ An overlay network is a telecommunications network that is built on top of anoth
 
 Project is in the form of service oriented architecture, where Tapestry services are exposed as API's to underlaying network infrastructure which is established by exploiting the actor model facilities of Elixir Language. The API provides a Distributed Hashing Table, routing and multicasting infrastructure. Objects are published and unpublished using casting API's in multicasting infrastructure. In this project we have implemented the underlying network on top of which we have also implemented Tapestry infrastructure.
 
-**STEPS TO RUN :**
+The tapestry utilizes a lot of technologies to build the underlying network. Hashing (SHA-16 )is used for storing user ID's on the network. A database layer connection is made to Erlang Short Term Storage to maintain the nodes data. The distributed system is built using the Network Join function mentioned in the original Tapestry Protocol paper. Erlang and Elixir facilities are used to create the underlying network.
+
+The application is capable of creating a network 0f 9000 users on a local macbook machine and successfully pass messages between them.
 
 
